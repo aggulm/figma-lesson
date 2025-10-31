@@ -1,4 +1,165 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* font-family: "Roboto", sans-serif; */
 /* font-family: "Roboto Slab", serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#about {
+  padding: 50px 0;
+}
+
+#header {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.row {
+  padding: 1.5em 3em;
+}
+
+.box {
+  width: 83%;
+}
+
+.box p {
+  font-size: 24px;
+  margin-bottom: 1.5em;
+}
+
+.about-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image1 {
+  width: 290px;
+  height: 302px;
+}
+
+.image2 {
+  width: 222px;
+  height: 194px;
+}
+
+.col-md-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textbox {
+  width: 54%;
+  height: 100px;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+.textbox p {
+  font-size: 18px;
+}
+
+@media screen and (max-width: 992px) {
+  #header {
+    font-size: 32px;
+  }
+
+  .box p {
+    font-size: 14px;
+  }
+
+  .textbox h4 {
+    font-size: 15px;
+  }
+
+  .textbox p {
+    font-size: 11px;
+  }
+
+  .image1 {
+    width: 164px;
+    height: 165px;
+  }
+
+  .row {
+    padding: 1em 0;
+  }
+
+  .image2 {
+    display: none;
+  }
+
+  .col-md-3 {
+    display: flex;
+    justify-content: start;
+  }
+
+  .image {
+    display: none;
+  }
+
+  .textbox {
+    width: 54%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #header {
+    font-size: 26px;
+    margin-left: 8.5%;
+  }
+
+  .col-md-8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box p {
+    font-size: 12px;
+  }
+
+  .textbox h4 {
+    font-size: 12px;
+  }
+
+  .textbox p {
+    font-size: 10px;
+  }
+
+  .image1 {
+    width: 170px;
+    height: 160px;
+    margin-top: .8em;
+    margin-bottom: .8em;
+  }
+
+  .image2 {
+    display: none;
+  }
+
+  .col-md-3 {
+    display: flex;
+    justify-content: start;
+    margin-left: 8.5%;
+  }
+
+  .image {
+    display: none;
+  }
+
+  .textbox {
+    width: 54%;
+  }
+}
